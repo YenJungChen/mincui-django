@@ -1,0 +1,58 @@
+body, div, form, img, ol, dl, dt, dd, p {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    text-decoration:none;
+}
+
+.page-wrapper {
+    background-color: #000000;
+    height: 62px;
+    font-size: 14pt;
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.page-wrapper-left {
+    padding: 20px 0px 20px 20px;
+    float: left;
+}
+
+.page-wrapper-right a, .page-wrapper-right a:link, .page-wrapper-right a:active, .page-wrapper-right a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.page-wrapper-right a:hover{
+    background-color: #ff9400;
+    text-decoration: none;
+}
+
+.page-wrapper-right {
+    background-color: #000000;
+    text-align: left;
+    padding: 20px 20px 20px 0px;
+    float: right;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.page-wrapper-right ul, li{
+    display: inline;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.page-header img{
+    background-color: #000000;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Sansita', sans-serif;
+}

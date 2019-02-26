@@ -1,0 +1,12 @@
+{% extends 'core/base.html' %}
+{% load staticfiles %}
+
+{% block page-wrapper-left %}
+    Welcome to Toroid Liaisons!
+{% endblock %}
+
+{% block content %}
+    <link href="{% static 'css/block.css' %}" rel="stylesheet">
+    <h1>A new game is coming!</h1>
+    <img src="{% static 'DU-0_banner.png' %}" style="width:100%">
+{% endblock %}

@@ -1,0 +1,73 @@
+h1, h2, h3, h4 {
+    font-family: 'Sansita', sans-serif;
+}
+
+p, button {
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.title {
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#mytext {
+    height: 200px;
+    width:800px;
+    border-color: #ffffff;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5em;
+}
+
+.row {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column {
+  float: center;
+  display: table-cell;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  display: table;
+}
+
+.search {
+    height: 160px;
+    width:500px;
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5em;
+}
+
+.codes-package {
+    height: 200px;
+    width:500px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5em;
+}
+
+.button-style {
+    text-align: center;
+}
+
+.button-style button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}

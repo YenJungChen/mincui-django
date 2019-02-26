@@ -1,0 +1,81 @@
+{% extends 'core/base.html' %}
+{% load staticfiles %}
+
+{% block page-wrapper-left %}
+    Welcome to Toroid Liaisons!
+{% endblock %}
+
+{% block content %}
+    <link href="{% static 'css/block.css' %}" rel="stylesheet">
+    <h1>About Us</h1>
+    <p id="mytext">
+        Established in 2019, Toroid Liaisons is newly powerful company grouped by LSU (Louisiana State University) students.
+        Currently, Toroid Liaisons is developing a new game, which is mainly about dual-shoot.
+        For more information, please contact us.
+    </p>
+    <h1>Our Team</h1>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="{% static 'pic1.png' %}" alt="Fettah" style="width:50%">
+          <div class="container">
+            <h3>Fettah Kiran</h3>
+            <p class="title">Team Leader</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="{% static 'pic2.png' %}" alt="Hunter" style="width:50%">
+          <div class="container">
+            <h3>Hunter Galtier</h3>
+            <p class="title">Audio Engineer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="{% static 'pic3.png' %}" alt="Logan" style="width:50%">
+          <div class="container">
+            <h3>Logan Davis</h3>
+            <p class="title">Graphic Artist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="{% static 'pic4.png' %}" alt="William" style="width:50%">
+          <div class="container">
+            <h3>William Harrison</h3>
+            <p class="title">Software Developer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="{% static 'pic5.png' %}" alt="Min" style="width:50%">
+          <div class="container">
+            <h3>Min Cui</h3>
+            <p class="title">Web Developer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="{% static 'pic6.png' %}" alt="Ding" style="width:50%">
+          <div class="container">
+            <h3>Yuqi Ding</h3>
+            <p class="title">Software Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

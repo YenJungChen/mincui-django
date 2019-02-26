@@ -1,0 +1,17 @@
+{% extends 'core/base.html' %}
+{% load staticfiles %}
+
+{% block page-wrapper-left %}
+    Welcome to Toroid Liaisons!
+{% endblock %}
+
+{% block content %}
+    <link href="{% static 'css/block.css' %}" rel="stylesheet">
+    <h1>Contact Us</h1>
+    <p id="mytext">
+        If you have any feedback, please contact us.</br>
+        Email:  toroidliaisons@lsu.edu</br>
+        Phone:  225-123-1234</br>
+        Address: Patric Taylor Hall, LSU
+    </p>
+{% endblock %}
